@@ -22,8 +22,6 @@ public class Implementation {
      public void createDriver(){
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver103");
         driver=new ChromeDriver();
-         JavascriptExecutor javascriptExecutor= (JavascriptExecutor)driver;
-         javascriptExecutor.executeScript("document.getElementsByClassName('sign-up')[0].click();");
 
     }
 
