@@ -1,16 +1,15 @@
 package tests;
+
 import org.testng.annotations.Test;
 import reusable.Implementation;
 
-public class Test1 {
-    @Test
-    public void test1() {
+public class LoginProcess {
+@Test
+    public void loginProcess(){
+
         Implementation implementation=new Implementation();
         implementation.navigateToApplication();
-        //implementation.startShopping();
+        implementation.loginPage();
         implementation.closeDriver();
-
-
-
     }
 }
